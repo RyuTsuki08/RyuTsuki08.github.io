@@ -1,0 +1,147 @@
+body{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); 
+     margin-bottom: 30px;
+}
+
+.contenedor{
+    height: 43vw;
+    width: 40vw;
+    background-image: linear-gradient(120deg, #f0c94a 0%, #d3836d 100%);
+    border-radius: 40pc;
+    margin-left: 375px;
+}
+
+.contenedor img{
+    height: 325px;
+    margin-top: 118px;
+    width: 325px;
+    margin-left: 114px;
+}
+
+h1{
+    font-family: 'Shippori Mincho B1', serif;
+    color: #616161;
+    margin-block-start: auto;
+    margin-top: 27px;
+    margin-left: 512px;
+    font-size: 70px; 
+    position: absolute;
+}
+
+.consentida{
+    height: 310px;
+    margin-top: 123px;
+    margin-left: 12%;
+    cursor: pointer;
+}
+
+.botones{
+    margin-top: -10px;
+}
+
+.siguiente{
+    font-family:'Montserrat', sans-serif; 
+    margin-left: 80px;
+    margin-top: 30px;
+   height: 40px;
+   font-weight: 600;
+   width: 390px;
+   border-radius: 10px;
+   border: transparent;
+   background-color: #e29725;
+   transition: background-color .1s;
+   cursor: pointer;
+}
+
+.siguiente:hover{
+background-color: #855b1c;
+}
+
+.Algo-mas{
+    font-family:'Montserrat', sans-serif; 
+    font-weight:600;
+        height: 40px;
+        width: 248px;
+        border: transparent;
+        border-radius: 10px;
+        background-color: rgb(199, 197, 197);
+        transition: background-color .1s;
+        cursor: pointer;
+        margin-left: 28%;
+        margin-top: 2%;
+}
+
+.Algo-mas:hover{
+    background-color: rgb(114, 112, 112);
+}
+
+.modal-container{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+.modal{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); 
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 370px;
+    width: 44%;
+    height: 80%;
+    overflow: hidden;
+    display: flex;
+    align-content: space-evenly;
+}
+
+.modal >img{
+    margin-top: 15px;
+    margin-left: 2%;
+    cursor: pointer;
+    height: 470px;
+    width: 310px;
+}
+
+h2{
+    font-family: 'Redressed', cursive;
+    font-size: 40px;
+    color: rgb(41, 40, 40);
+    margin-top: 13px;
+    margin-right: 40px;
+    margin-left: 18px;
+}
+
+.modal-textos img{
+    margin-top: -37px;
+    margin-left: 39px;
+}
+
+.lista{
+    font-family:'Shippori Mincho B1', serif;
+    margin-top: 70px;
+    font-size: 17px;
+    margin-left: auto;
+}
+
+.btn_back{
+    font-family: 'Shippori Mincho B1', serif;
+    height: 6%;
+    width: 90%;
+    margin-top: 11px;
+    margin-left: 16px;
+    background:  rgba(255, 255, 255, 0.349);
+    border-color: transparent;
+    border-radius: 6px;
+}
+
+.btn_back:hover{
+   background:  #ff990093 0%;
+    cursor: pointer;
+}
