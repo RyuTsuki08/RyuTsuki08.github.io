@@ -145,3 +145,31 @@ h2{
     background: #cc928d;
     cursor: pointer;
 }
+
+/* Responsive */
+
+@media only screen and (max-width: 1000px) {
+   .contenedor, .starscyv, .botones, .siguiente, .Que-es, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
+    body{min-width: 100%;}
+   .modal-container.active{height: 100%; width: 100%;}
+   .contenedor{display: table-cell;}
+   .botones {height: 275px; width: 124;}
+   .Que-es {width: 44%; margin-left: 190px;    width: 44%;margin-left: 190px; font-size: xx-large; height: 76px; margin-top: -3px;}
+   .siguiente {width: 67%; height: 80px; margin-left: 93px; margin-top: 38px; margin-bottom: 45px; font-size: xx-large;}
+   * {margin-top: 141px; margin-left: 52px;}
+   h1 {margin-top: 122px;margin-left: 110px;text-align: center;font-size: 416%;}
+   .starscyv{  width: 790px; height: 610px; margin-left: 4px; margin-top: 286px; margin-bottom: -134px;}
+   .modal{height: auto;width: 85%;display: inline-grid;margin-top: 38%;margin-left: 86px;}
+   .modal >img{margin-left: 252px;}
+   h2{margin-left: 108px;}
+   .modal-textos{margin-top: 10px;}
+   .parrafo_1{font-size: xx-large;}
+   .btn_back{height: 70px;font-size: xx-large;margin-left: 35%;}
+}
+
+   @media only screen and (max-width: 500px) {
+    .contenedor, .starscyv, .botones, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
+    body{min-width: 50%;}
+   .modal-container.active{height: 100%; width: 100%;}
+   h1 {width: 100px;}
+}
