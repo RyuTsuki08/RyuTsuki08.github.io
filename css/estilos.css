@@ -129,7 +129,7 @@ h2{
 
 footer{
     margin-top: 130px;
-    height: 100vh;
+    height: 110vh;
     background-image: linear-gradient(to top, #ebbca77e 0%, #cfc7f879 100%), url(../img/final_img.jpg);
     padding-bottom: 0.1px;
     background-repeat: no-repeat;
@@ -139,15 +139,22 @@ footer{
 
 
 .opcionesII{
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-	padding: 0;
-	height: 50%;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	color: #000;
-    font-size: xx-large;
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        padding: 0;
+        height: 56%;
+        justify-content: space-between;
+        align-items: center;
+        color: #000;
+        font-size: xx-large;
+        position: absolute;
+        margin-top: 15%;
+        display: flex;
+
+}
+
+.opcionesII img{
+    margin-top: 7vw;
 }
 
 .imgs{
@@ -179,58 +186,97 @@ footer{
     cursor: pointer;
     margin-right: 60px;
 }
+   
+/* Responsive */
 
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 2000px) {
     .header, .contenedor, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
     body{min-width: 50%;}
    .modal-container.active{height: 100%; width: 100%;}
-     .opcionesII, footer {display:table-cell; display: block; height: 100%;}
-     .opcionesII {align-items: center; column-gap: 100%; line-height: 50vh;}
-   .imgs{}
-   }
-
-   @media only screen and (max-width: 600px) {
-    .header, .contenedor, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
-    body{min-width: 100%;}
-   .modal-container.active{height: 100%; width: 100%;}
-     .opcionesII, footer {display:table-cell; display: block; height: 100%;}
-     .opcionesII {align-items: center; column-gap: 100%; line-height: 50vh;}
-   .imgs{height: 5%;}
-   }
-
-   @media only screen and (max-width: 700px) {
-    .header, .contenedor, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
-    body{min-width: 100%;}
-   .modal-container.active{height: 100%; width: 100%;}
-     .opcionesII, footer {display:table-cell; display: block; height: 100%;}
-     .opcionesII {align-items: center; column-gap: 100%; line-height: 50vh;}
-   .imgs{}
-   }
-
-   @media only screen and (max-width: 800px) {
-    .header, .contenedor, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
-    body{min-width: 100%;}
-   .modal-container.active{height: 100%; width: 100%;}
-     .opcionesII, footer {display:table-cell; display: block; height: 100%;}
-     .opcionesII {align-items: center; column-gap: 100%; line-height: 50vh;}
-   .imgs{display: none;}
-   }
-
-   @media only screen and (max-width: 900px) {
-    .header, .contenedor, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
-    body{min-width: 100%;}
-   .modal-container.active{height: 100%; width: 100%;}
-     .opcionesII, footer {display:table-cell; display: block; height: 100%;}
-     .opcionesII {align-items: center; column-gap: 100%; line-height: 50vh;}
-   .imgs{}
-   }
+   footer {height: auto;}
+   footer {width: auto;}
+}
 
    @media only screen and (max-width: 1000px) {
     .header, .contenedor, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
     body{min-width: 100%;}
    .modal-container.active{height: 100%; width: 100%;}
-     .opcionesII, footer {display:table-cell; display: block; height: 100%;}
-     .opcionesII {align-items: center; column-gap: 100%; line-height: 50vh;}
-   .imgs{}
+     .opcionesII{margin-top: 5vw;display: contents;margin-left: 135px; height: 220vh;}
+    .opcionesII img {width: 63%;}
+    img.img-moments { height: auto; margin-left: 51px;margin-bottom: 122px;}
+    img.img-alias { height: auto; margin-left: 37px;margin-bottom: 122px;}
+    .n-alias {display: grid;}
+    .n-sites {display: grid;}
+    img.img-sites { height: auto;}
    }
+
+   @media only screen and (max-width: 500px) {
+    .header, .contenedor, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
+    body{min-width: 50%;}
+   .modal-container.active{height: 100%; width: 100%;}
+   footer {height: auto;}
+}
+
+@media only screen and (max-width: 400px) {
+    .header, .contenedor, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
+    body{min-width: 50%;}
+   .modal-container.active{height: 100%; width: 100%;}
+   footer {height: auto;}
+   footer {width: auto;}
+}
+
+@media only screen and (max-width: 600px) {
+    .header, .contenedor, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
+    body{min-width: 50%;}
+   .modal-container.active{height: 100%; width: 100%;}
+   footer {height: auto;}
+   footer {width: auto;}
+}
+
+@media only screen and (max-width: 700px) {
+    .header, .contenedor, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
+    body{min-width: 50%;}
+   .modal-container.active{height: 100%; width: 100%;}
+   footer {height: auto;}
+   footer {width: auto;}
+}
+
+@media only screen and (max-width: 800px) {
+    .header, .contenedor, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
+    body{min-width: 50%;}
+   .modal-container.active{height: 100%; width: 100%;}
+   footer {height: auto;}
+   footer {width: auto;}
+}
+
+@media only screen and (max-width: 900px) {
+    .header, .contenedor, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
+    body{min-width: 50%;}
+   .modal-container.active{height: 100%; width: 100%;}
+   footer {height: auto;}
+   footer {width: auto;}
+}
+
+@media only screen and (max-width: 200px) {
+    .header, .contenedor, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
+    body{min-width: 50%;}
+   .modal-container.active{height: 100%; width: 100%;}
+   footer {height: auto;}
+   footer {width: auto;}
+}
+
+@media only screen and (max-width: 300px) {
+    .header, .contenedor, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
+    body{min-width: 50%;}
+   .modal-container.active{height: 100%; width: 100%;}
+   footer {height: auto;}
+   footer {width: auto;}
+}
+
+@media only screen and (max-width: 100px) {
+    .header, .contenedor, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
+    body{min-width: 50%;}
+   .modal-container.active{height: 100%; width: 100%;}
+   footer {height: auto;}
+   footer {width: auto;}
+}
