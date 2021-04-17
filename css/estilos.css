@@ -189,14 +189,6 @@ footer{
    
 /* Responsive */
 
-@media only screen and (max-width: 2000px) {
-    .header, .contenedor, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
-    body{min-width: 50%;}
-   .modal-container.active{height: 100%; width: 100%;}
-   footer {height: auto;}
-   footer {width: auto;}
-}
-
    @media only screen and (max-width: 1000px) {
     .header, .contenedor, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
     body{min-width: 100%;}
