@@ -132,18 +132,18 @@ h2{
 }
 
 @media only screen and (max-width: 1000px) {
-    .contenedor, .queen, .botones, .siguiente, .Que-es, .modal-container,.modal, .modal-container.active, .modal-container.active::after
-     {width: 104%;}
-     body{min-width: 100%; background-attachment: fixed;}
+    .contenedor, .queen, .botones, .siguiente, .Que-es, .modal::after
+    {width: 89%;}
+     body{margin-left: -1px;margin-top: 252px; background-attachment: fixed;}
     .modal-container.active{height: 100%; width: 100%;}
     .contenedor{display: table-cell;}
-    .botones {height: 300px;}
+    .botones {height: 300px; margin-left: 105px;}
     .Algo-mas {width: 44%; margin-left: 190px;    width: 44%;margin-left: 190px; font-size: xx-large; height: 76px; margin-top: -3px;}
     .siguiente {width: 75%;height: 80px;margin-left: -8px; margin-top: 60px;margin-bottom: 38px;font-size: xx-large;}
     * {margin-top: 141px; margin-left: 52px;}
     h1 {margin-left: 178px;text-align: center; font-size: 805%;}
     .queen{ height: 610px; margin-left: -8px; margin-top: 286px; margin-bottom: -134px;}
-    .modal{height: auto;width: 85%;display: inline-grid;margin-left: 69px;}
+    .modal{width: auto;display: inline-grid;margin-left: 69px; margin-left: 118px; margin-top: 13%;}
     .modal >img{margin-left: 252px;}
     h2{margin-bottom: -79px;font-size: 93px;margin-top: -5px;text-align: -webkit-center;}
     .modal-textos{margin-top: 10px;}
@@ -151,8 +151,4 @@ h2{
     .btn_back{height: 70px;font-size: xx-large;margin-left: -2%; margin-bottom: 23px;} 
  }
 
- @media only screen and (max-width: 768px){
-    .contenedor, .modal, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
 
- }
- 

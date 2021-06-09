@@ -4,6 +4,7 @@
 
 :root{
 	scroll-behavior: smooth;
+    user-select: none;
 }
 
 body{
@@ -12,6 +13,64 @@ body{
 
 h1{
     font-family: 'RocknRoll One', sans-serif;
+}
+
+.menuloopII{
+	position: absolute;
+}
+
+#closeMenu{
+	position: absolute;
+	z-index: 2;
+	width: 32px;
+	margin-left: 88%;
+	margin-top: 1%;
+	cursor: pointer;
+}
+
+li{
+	text-align: center;
+}
+
+ul{
+	font-size: x-large;
+    height: 80px;
+    margin-top: 10%;
+    padding: 0;
+}
+
+#a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	height: 50px;
+	width: 288px;
+}
+
+#a:hover{
+	color: #000;
+	background-color: bisque;
+}
+
+#menuloop{
+	width: 60px;
+	position: fixed;
+	margin-left: 94%;
+	margin-top: 1%;
+	cursor: pointer;
+}
+
+#menu{
+	z-index: 1;
+	overflow: hidden;
+	height: 100vh;
+	width: 20vw;
+	background-color: rgba(26, 26, 25, 0.384);
+	color: ivory;
+	position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 header{
@@ -190,8 +249,11 @@ footer{
 /* Responsive */
 
    @media only screen and (max-width: 1000px) {
-    .header, .contenedor, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
+    .header, .menuloopII, nav, #closeMenu, #menu, #a,#menuloop, .contenedor, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
     body{min-width: 100%;}
+    header{height: 80vh;}
+    #menuloop{margin-left: 90%; width: 54px;}
+    #closeMenu{width: 37px;}
    .modal-container.active{height: 100%; width: 100%;}
      .opcionesII{margin-top: 5vw;display: contents;margin-left: 135px; height: 220vh;}
     .opcionesII img {width: 63%;}
@@ -226,16 +288,18 @@ footer{
 }
 
 @media only screen and (max-width: 700px) {
-    .header, .contenedor, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
+    .header, .contenedor,#closeMenu,nav,#menuloop, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
     body{min-width: 50%;}
+    body{min-width: 50%;}
+    #menuloop{margin-left: 84%; width: 54px;}
+    #closeMenu{width: 37px;}
    .modal-container.active{height: 100%; width: 100%;}
    footer {height: auto;}
    footer {width: auto;}
 }
 
 @media only screen and (max-width: 800px) {
-    .header, .contenedor, .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
-    body{min-width: 50%;}
+    .header, .contenedor,  nav,  .opcionesII, .imgs, .modal-container, .modal-container.active, .modal-container.active::after {width: 100%;}
    .modal-container.active{height: 100%; width: 100%;}
    footer {height: auto;}
    footer {width: auto;}
