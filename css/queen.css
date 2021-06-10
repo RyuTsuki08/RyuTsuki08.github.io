@@ -132,8 +132,7 @@ h2{
 }
 
 @media only screen and (max-width: 1000px) {
-    .contenedor, .queen, .botones, .siguiente, .Que-es, .modal::after
-    {width: 89%;}
+    .contenedor, .queen, .botones, .siguiente, .Algo-mas, .modal::after{width: 89%;}
      body{margin-left: -1px;margin-top: 252px; background-attachment: fixed;}
     .modal-container.active{height: 100%; width: 100%;}
     .contenedor{display: table-cell;}

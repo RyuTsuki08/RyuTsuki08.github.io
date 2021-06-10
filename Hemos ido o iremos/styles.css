@@ -23,6 +23,7 @@
 
 li{
 	text-align: center;
+	list-style: none;
 }
 
 ul{
@@ -551,7 +552,7 @@ footer > h1{
 	body{min-width: 100%;}
 	header{height: 50vh;}
 	li{margin-left: 37%;}
-    #menuloop{margin-left: 93%; width: 54px; z-index: 1;}
+    #menuloop{margin-left: 92%; width: 64px; z-index: 1;}
     #closeMenu{width: 55px;margin-left: 93%;z-index: 2;}
 	.box1{margin-left: -4%;height: 337px;}
 	.box2{margin-left: -4%;height: 337px;}
@@ -579,68 +580,10 @@ footer > h1{
 	.redes{display: grid;}
 }
 
-@media only screen and (max-width: 700px){
-	.header, .menuloopII, nav, #closeMenu, #menu, #a,#menuloop, .contenedor, .box1,.box2,.box3,.box4,.box5,.box6,.box7,.Box7::after {width: 100%;}
-	body{min-width: 100%;}
-	header{height: 50vh;}
-    #menuloop{margin-left: 90%; width: 54px;}
-    #closeMenu{width: 37px;}
-	.box1{margin-left: -4%;height: 337px;}
-	.box2{margin-left: -4%;height: 337px;}
-	.box3{margin-left: -4%;height: 337px;}
-	.box4{margin-left: -4%;height: 337px;}
-	.box5{margin-left: -4%;height: 337px;}
-	.box6{margin-left: -4%;height: 337px;}
-	.box7{margin-left: -4%;height: 337px;}
-	.Box1{height: 336px;margin-top: -249px;width: 910px;}
-	.Box1>p{margin-left: 39%;margin-top: -23%;}
-	.Box2{height: 337px;margin-top: -228px;width: 910px;}
-	.Box2>p{margin-left: 39%;margin-top: -23%;}
-	.Box3{height: 337px;margin-top: -237px;width: 910px;}
-	.Box3>p{margin-left: 39%;margin-top: -23%;}
-	.Box4{height: 336px;margin-top: -246px;width: 910px;}
-	.Box4>p{margin-top: -23%;}
-	.Box5{height: 337px;margin-top: -237px;width: 910px;}
-	.Box5>p{margin-left: 29%;margin-top: -23%;}
-	.Box6{height: 337px;margin-top: -237px;width: 910px;}
-	.Box6>p{margin-left: 36%;margin-top: -23%;}
-	.Box7{height: 337px;margin-top: -237px;width: 910px;}
-	.Box7>p{margin-left: 39%;margin-top: -23%;}
-	footer>h3{font-size: x-large; margin-top: 9%;}
-	.redes{display: grid;}
-}
 
-@media only screen and (max-width: 300px){
-	.header, .menuloopII, nav, #closeMenu, #menu, #a,#menuloop, .contenedor, .box1,.box2,.box3,.box4,.box5,.box6,.box7,.Box7::after {width: 100%;}
-	body{min-width: 100%;}
-	header{height: 50vh;}
-	li{margin-left: 37%;}
-    #menuloop{margin-left: 93%; width: 54px; z-index: 1;}
-    #closeMenu{width: 55px;margin-left: 93%;z-index: 2;}
-	.box1{margin-left: -4%;height: 337px;}
-	.box2{margin-left: -4%;height: 337px;}
-	.box3{margin-left: -4%;height: 337px;}
-	.box4{margin-left: -4%;height: 337px;}
-	.box5{margin-left: -4%;height: 337px;}
-	.box6{margin-left: -4%;height: 337px;}
-	.box7{margin-left: -4%;height: 337px;}
-	.Box1{height: 336px;margin-top: -249px;width: 910px;}
-	.Box1>p{margin-left: 39%;margin-top: -23%;}
-	.Box2{height: 337px;margin-top: -228px;width: 910px;}
-	.Box2>p{margin-left: 39%;margin-top: -23%;}
-	.Box3{height: 337px;margin-top: -237px;width: 910px;}
-	.Box3>p{margin-left: 39%;margin-top: -23%;}
-	.Box4{height: 336px;margin-top: -246px;width: 910px;}
-	.Box4>p{margin-top: -23%;}
-	.Box5{height: 337px;margin-top: -237px;width: 910px;}
-	.Box5>p{margin-left: 29%;margin-top: -23%;}
-	.Box6{height: 337px;margin-top: -237px;width: 910px;}
-	.Box6>p{margin-left: 36%;margin-top: -23%;}
-	.Box7{height: 337px;margin-top: -237px;width: 910px;}
-	.Box7>p{margin-left: 39%;margin-top: -23%;}
-	footer>h3{font-size: x-large; margin-top: 9%;}
-	.redes{display: grid;}
-}
+
+
+
 
 
 

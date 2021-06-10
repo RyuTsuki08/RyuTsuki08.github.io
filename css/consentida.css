@@ -139,3 +139,41 @@ h2{
    background:  #2276fc93 0%;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 1000px) {
+    .contenedor, .consentida, .botones, body, .siguiente, .Algo-mas, .modal::after{width: 89%;}
+     body{margin-left: 23px; background-attachment: fixed;}
+    .modal-container.active{height: 100%; width: 100%;}
+    .contenedor{display: table-cell;}
+    .botones {height: 300px; margin-left: 105px; margin-top:10%}
+    .Algo-mas {width: 44%; margin-left: 190px;    width: 44%;margin-left: 190px; font-size: xx-large; height: 76px; margin-top: -3px;}
+    .siguiente {width: 75%;height: 80px;margin-left: -8px; margin-top: 60px;margin-bottom: 38px;font-size: xx-large;}
+    * {margin-top: 141px; margin-left: 52px;}
+    h1 {margin-left: 178px; font-size: 530%;}
+    .consentida{ height: 666px; margin-left: 120px; margin-bottom: -134px;}
+    .modal{width: auto;display: inline-grid;margin-left: 69px; margin-left: 118px; margin-top: 13%;}
+    .modal >img{margin-left: 160px; width: 70%; height: 152%; margin-top: -32%;}
+    h2{margin-bottom: -79px;font-size: 93px;margin-top: -462px;text-align: -webkit-center;}
+    .modal-textos{margin-top: 10px;display: flex;align-content: center;align-items: center;flex-direction: column;}
+    .btn_back{height: 70px;font-size: xx-large;margin-left: -2%; margin-bottom: 23px;} 
+    .cute-dogs{height: 20vh;margin-top: 6%;}
+ }
+
+ @media only screen and (min-width: 400px) {
+    .contenedor, .consentida, .botones, body, .siguiente, .Algo-mas, .modal::after{width: 89%;}
+     body{margin-left: 23px; background-attachment: fixed;}
+    .modal-container.active{height: 100%; width: 100%;}
+    .contenedor{display: table-cell;}
+    .botones {height: 300px; margin-left: 105px; margin-top:10%}
+    .Algo-mas {width: 44%; margin-left: 190px;    width: 44%;margin-left: 190px; font-size: xx-large; height: 76px; margin-top: -3px;}
+    .siguiente {width: 75%;height: 80px;margin-left: -8px; margin-top: 60px;margin-bottom: 38px;font-size: xx-large;}
+    * {margin-top: 141px; margin-left: 52px;}
+    h1 {margin-left: 178px; font-size: 530%;}
+    .consentida{ height: 666px; margin-left: 120px; margin-bottom: -134px;}
+    .modal{width: auto;display: inline-grid;margin-left: 69px; margin-left: 118px; margin-top: 13%;}
+    .modal >img{margin-left: 160px; width: 70%; height: 152%; margin-top: -32%;}
+    h2{margin-bottom: -79px;font-size: 93px;margin-top: -462px;text-align: -webkit-center;}
+    .modal-textos{margin-top: 10px;display: flex;align-content: center;align-items: center;flex-direction: column;}
+    .btn_back{height: 70px;font-size: xx-large;margin-left: -2%; margin-bottom: 23px;} 
+    .cute-dogs{height: 20vh;margin-top: 6%;}
+ }
