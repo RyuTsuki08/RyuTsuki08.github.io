@@ -28,7 +28,7 @@ h1{
     position: absolute;
 }
 
-.consentida{
+.lifeI{
     height: 310px;
     margin-top: 123px;
     margin-left: 12%;
@@ -95,7 +95,7 @@ h1{
 h2{
     font-family: 'Redressed', cursive;
     font-size: 40px;
-    color: rgb(41, 40, 40);
+    color: rgb(107 0 0);
     margin-top: 13px;
     margin-right: 40px;
     margin-left: 18px;
@@ -128,3 +128,23 @@ h2{
    background:  #ff990093 0%;
     cursor: pointer;
 }
+
+/* Responsive */
+
+@media only screen and (max-width: 1000px) {
+    .contenedor, .lifeI, .botones, .Algo-mas, .modal::after{width: 100%;}
+     body{margin-left: 55px;margin-top: 83px; background-attachment: fixed;}
+    .modal-container.active{height: 100%; width: 100%;}
+    .contenedor{display: table-cell;}
+    .botones {height: 300px; margin-left: 52px;}
+    .Algo-mas {width: 44%; margin-left: 190px; width: 70%;margin-left: 70px; font-size: xx-large; height: 95px;}
+    * {margin-top: 141px; margin-left: 52px;}
+    h1 {margin-left: 178px;text-align: center; font-size: 805%;}
+    .contenedor img{margin-left: 72px; width: 700px;height: 1040px;}
+    .modal{width: 856px;display: inline-grid;margin-left: 72px; margin-top: 13%;}
+    .modal >img {margin-left: 235px;height: 229%;margin-top: -37%;width: 43%;}
+    h2{font-size: 93px;margin-top: 60px;z-index: 2;position: absolute;}
+    .modal-textos{margin-top: 10px;display: flex;align-content: center;align-items: center;flex-direction: column;}
+    .modal-textos img{width: 440px;margin-top: 180px;z-index: 1;}
+    .btn_back{height: 70px;font-size: xx-large;margin-left: -2%; margin-bottom: 23px;} 
+ }

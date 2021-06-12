@@ -548,7 +548,7 @@ footer > h1{
 /* RESPONSIVE */
 
 @media only screen and (max-width: 1000px){
-	.header, footer, .menuloopII, nav, #closeMenu, #menu, #a,#menuloop, .contenedor, .box1,.box2,.box3,.box4,.box5,.box6,.box7,.Box7::after {width: 100%;}
+	.header, .menuloopII, nav, #closeMenu, #menu, #a,#menuloop, .contenedor, .box1,.box2,.box3,.box4,.box5,.box6,.box7,.Box7::after {width: 100%;}
 	body{min-width: 100%;}
 	header{height: 50vh;}
 	li{margin-left: 37%;}
@@ -575,8 +575,8 @@ footer > h1{
 	.Box6>p{margin-left: 36%;margin-top: -23%;}
 	.Box7{height: 337px;margin-top: -237px;width: 910px;}
 	.Box7>p{margin-left: 39%;margin-top: -23%;}
-	footer{height: 70vh;}
-	footer>h3{font-size: x-large; margin-top: 9%;}
+	footer{height: 100%;}
+	footer>h3{font-size: x-large; margin-top: 2%;}
 	.redes{display: grid;}
 }
 
